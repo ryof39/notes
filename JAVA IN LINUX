@@ -1,0 +1,16 @@
+在LINUX下编写JAVA代码
+1、打开终端，输入javac命令，终端提示有一些软件包含有此命令
+2、输入 sudo apt install 加任意一个软件包名字，（如：sudo apt install gcd-5-jdk），系统会自动下载软件包并配置JAVA编译环境
+3、在任一位置写一段JAVA代码。
+例如：
+public class Hello
+{
+	public static void main(String args[])
+	{
+		System.out.println("JAVA!");
+	}
+}
+保存名字为“Hello.java”
+4、在终端输入 javac 指向你所写代码的地址，终端会根据情况提示代码的修改或是完成编译
+5、最后输入java 及指向你所写代码的地址（这里没有后缀“.java”），终端将显示编译结果
+JAVA！
